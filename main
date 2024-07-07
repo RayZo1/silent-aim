@@ -1,5 +1,15 @@
 if _G.Key == "123" then
-    print("Whitelisted!")
+    print("Loading started!")
+    wait(1)
+    print("32% Loading.")
+    wait(2)
+    print("65% Loading..")
+    wait(1)
+    print("97% Loading...")
+    wait(3)
+    print("!!!100% Loaded!!!")
+    wait(07)
+    print("Ready to launch!"
     else
     print(_G.Key.." Was not correct!")
     return
