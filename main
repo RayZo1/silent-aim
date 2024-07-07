@@ -1,0 +1,6 @@
+if _G.Key == "123" then
+    print("Whitelisted!")
+    else
+    print(_G.Key.." Was not correct!")
+    return
+end
