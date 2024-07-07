@@ -1,13 +1,6 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Loading gui!
 if _G.Key == "OGzVEnONSkmbxLb" then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RayZo1/silent-aim/main/step%202'),true))()
     else
     print(_G.Key.." Was not correct!")
     return
 end
-local Window = OrionLib:MakeWindow({Name = "CASHIIN's HUB!", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-local Tab = Window:MakeTab({
-	Name = "<Aimbot>",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
