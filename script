@@ -1,7 +1,25 @@
+local Player = game.Players.LocalPlayer
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Loading gui!
 local Window = OrionLib:MakeWindow({Name = "CASHIIN's HUB!", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Cashiin Hub!",
+	Content = "Welcome to Cash Hub, "..Player.Name,
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 local Tab = Window:MakeTab({
 	Name = "<Aimbot>",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Aimbot"
+})
+Tab:AddToggle({
+	Name = "Aimbot",
+	Default = Aimbot False,
+	Callback = function(Value)
+                   print(Value)
+	end    
 })
