@@ -1,0 +1,2 @@
+if _G.Key == "OGzVEnONSkmbxLb" then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RayZo1/silent-aim/main/step%202'),true))()
