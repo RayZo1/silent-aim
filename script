@@ -16,8 +16,8 @@ local Section = Tab:AddSection({
 })
 Tab:AddToggle({
 	Name = "Aimbot",
-	Default = Aimbot False,
+	Default = false,
 	Callback = function(Value)
-                   print(Value)
+         print(Value)
 	end    
 })
