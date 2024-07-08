@@ -1,5 +1,5 @@
 if _G.Key == "OGzVEnONSkmbxLb" then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RayZo1/silent-aim/main/step%202'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RayZo1/silent-aim/main/2'),true))()
     else
     print(_G.Key.." Was not correct!")
     return
