@@ -1,10 +1,8 @@
-local Player = game.Players.LocalPlayer
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Loading gui!
 local Window = OrionLib:MakeWindow({Name = "CASHIIN's HUB!", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Cashiin Hub!",
-	Content = "Welcome to Cash Hub, "..Player.Name,
+	Content = "Welcome to Cash Hub, "..game.Players.LocalPlayer.Name,
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
